@@ -1,0 +1,43 @@
+{
+  "app_name": "Galaxy YouTube ViewBot Pro",
+  "version": "3.1.0",
+  "settings": {
+    "watch_time": 15,
+    "view_delay": 2,
+    "max_concurrent_views": 5,
+    "headless_mode": true,
+    "incognito_mode": true,
+    "random_watch_time": true,
+    "random_delay": true,
+    "auto_like": true,
+    "auto_subscribe": true,
+    "auto_comment_enabled": false,
+    "comment_text": "Nice video! 🚀",
+    "clear_cache": true,
+    "clear_cookies": true,
+    "minimize_window": false,
+    "mute_audio": true
+  },
+  "proxy": {
+    "enabled": false,
+    "server": "YOUR_PROXY_SERVER_HERE",
+    "port": "YOUR_PROXY_PORT_HERE",
+    "username": "YOUR_PROXY_USERNAME_HERE",
+    "password": "YOUR_PROXY_PASSWORD_HERE",
+    "rotation": false
+  },
+  "user_agents": {
+    "rotation_enabled": true,
+    "custom_agents": []
+  },
+  "api_keys": {
+    "youtube_api_key": "YOUR_YOUTUBE_API_KEY_HERE",
+    "optional_service_key": "YOUR_OPTIONAL_SERVICE_KEY_HERE"
+  },
+  "logging": {
+    "save_logs_on_exit": true,
+    "log_level": "INFO",
+    "export_path": "./logs"
+  }
+}
+

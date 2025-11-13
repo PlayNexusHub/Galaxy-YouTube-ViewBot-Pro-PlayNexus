@@ -1,0 +1,222 @@
+SETUP INSTRUCTIONS - Galaxy YouTube ViewBot Pro
+================================================
+
+Welcome to Galaxy YouTube ViewBot Pro v3.1.0!
+
+This guide will help you set up and configure the application for first-time use.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📋 PREREQUISITES
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Before you begin, ensure you have:
+
+✓ Python 3.7 or higher installed
+  → Download from: https://www.python.org/downloads/
+  → Make sure to check "Add Python to PATH" during installation
+
+✓ Google Chrome browser installed
+  → Download from: https://www.google.com/chrome/
+
+✓ Internet connection
+
+✓ (Optional) Proxy servers for IP rotation
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🚀 INSTALLATION STEPS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+STEP 1: Extract the Application
+────────────────────────────────
+1. Extract the ZIP file to your desired location
+2. Navigate to the extracted folder
+
+STEP 2: Install Python Dependencies
+────────────────────────────────────
+1. Open Command Prompt (Windows) or Terminal (Mac/Linux)
+2. Navigate to the application folder:
+   cd "path/to/Galaxy-YouTube-ViewBot-Pro"
+
+3. Install required packages:
+   pip install -r requirements.txt
+
+   If you encounter permission errors, use:
+   pip install --user -r requirements.txt
+
+STEP 3: Configure the Application (Optional)
+──────────────────────────────────────────────
+You have two options for configuration:
+
+OPTION A: Using Environment Variables (.env)
+─────────────────────────────────────────────
+1. Copy .env.example to .env:
+   - Windows: copy .env.example .env
+   - Mac/Linux: cp .env.example .env
+
+2. Open .env with a text editor
+3. Replace placeholder values:
+   - PROXY_SERVER=your_proxy_ip_here
+   - PROXY_PORT=your_proxy_port_here
+   - PROXY_USERNAME=your_username_here (if required)
+   - PROXY_PASSWORD=your_password_here (if required)
+   - YOUTUBE_API_KEY=your_api_key_here (if using API features)
+
+OPTION B: Using Configuration File (config.json)
+─────────────────────────────────────────────────
+1. Copy config_template.json to config.json:
+   - Windows: copy config_template.json config.json
+   - Mac/Linux: cp config_template.json config.json
+
+2. Open config.json with a text editor
+3. Fill in your settings:
+   - Proxy configuration (if using proxies)
+   - API keys (if using API features)
+   - Customize application settings as needed
+
+STEP 4: Run the Application
+───────────────────────────
+For Development:
+   python main.py
+
+For Production (if executable available):
+   Double-click Galaxy_YouTube_ViewBot_Pro.exe
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+⚙️ CONFIGURATION GUIDE
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+BASIC SETTINGS
+──────────────
+• Watch Time: 5-600 seconds (default: 15)
+  → How long to watch each video
+  → Higher values = more realistic but slower
+
+• View Delay: 0-120 seconds (default: 2)
+  → Delay between views
+  → Helps avoid detection
+
+• Concurrent Views: 1-100 (default: 5)
+  → Number of simultaneous browser sessions
+  → Higher = faster but more resource-intensive
+
+PROXY CONFIGURATION
+───────────────────
+If you want to use proxy servers:
+
+1. Format: http://ip:port or socks5://ip:port
+2. With authentication: http://username:password@ip:port
+3. Add multiple proxies in the Functions tab for rotation
+
+Example:
+  http://proxy.example.com:8080
+  socks5://user:pass@proxy.example.com:1080
+
+BROWSER SETTINGS
+───────────────
+• Headless Mode: Run without visible browser (recommended)
+• Incognito Mode: Private browsing sessions
+• Mute Audio: Disable audio during viewing
+• Clear Cache: Remove cache between sessions
+• Clear Cookies: Remove cookies between sessions
+
+ADVANCED FEATURES
+─────────────────
+• Auto-Like: Automatically like videos (requires login)
+• Auto-Subscribe: Subscribe to channels automatically (requires login)
+• Auto-Comment: Post comments on videos (requires login)
+• Random Watch Time: Vary viewing duration naturally
+• Random Delay: Vary delays between views
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📖 USAGE GUIDE
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+BASIC OPERATION
+───────────────
+1. Enter YouTube URL in the main input field
+2. Configure settings in the Settings tab
+3. Click "▶️ Start Bot" to begin
+4. Monitor progress in the Stats tab
+5. Click "⏹️ Stop Bot" to stop
+
+QUEUE MANAGEMENT
+────────────────
+1. Add URLs to queue using "➕ Add URL to Queue"
+2. Use "💥 Mass Start" to process all queued videos
+3. Export/Import queue for backup
+
+PROXY SETUP
+───────────
+1. Go to Functions tab
+2. Enter proxy in the proxy input field
+3. Click "➕ Add Proxy" to add to pool
+4. Enable "🔄 Rotate Proxies" for automatic rotation
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🔧 TROUBLESHOOTING
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+ISSUE: Chrome Not Found
+───────────────────────
+Solution: Ensure Google Chrome is installed and up to date
+
+ISSUE: Module Not Found Error
+─────────────────────────────
+Solution: Run: pip install -r requirements.txt
+
+ISSUE: Proxy Connection Failed
+──────────────────────────────
+Solution: 
+  - Check proxy format (http://ip:port)
+  - Verify proxy credentials
+  - Test proxy connection manually
+
+ISSUE: High CPU/Memory Usage
+────────────────────────────
+Solution:
+  - Reduce concurrent views
+  - Enable headless mode
+  - Close other applications
+
+ISSUE: Rate Limiting / Detection
+────────────────────────────────
+Solution:
+  - Increase view delays
+  - Use proxy rotation
+  - Reduce concurrent views
+  - Enable random delays
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+⚠️ IMPORTANT NOTES
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+• This tool is for educational and legitimate testing purposes only
+• Use responsibly and in compliance with YouTube's Terms of Service
+• Respect rate limits and platform guidelines
+• Do not share your API keys or proxy credentials publicly
+• Keep your configuration files (.env, config.json) private
+• Monitor system resources to avoid overloading your computer
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📞 SUPPORT
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+For support, questions, or feature requests:
+
+• Discord: https://discord.gg/vFX5mFQUmc
+• GitHub: https://github.com/PlayNexusHub/-Galaxy-YouTube-ViewBot-Pro
+• Issues: https://github.com/PlayNexusHub/-Galaxy-YouTube-ViewBot-Pro/issues
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Developed by PlayNexus // © 2025 Nortaq
+
+Thank you for using Galaxy YouTube ViewBot Pro! 🚀
+

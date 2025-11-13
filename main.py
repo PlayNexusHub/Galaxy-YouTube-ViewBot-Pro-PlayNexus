@@ -24,8 +24,17 @@ import socket
 from concurrent.futures import ThreadPoolExecutor
 
 # --- 100X UPGRADE: Global constants ---
-APP_NAME = "🌌 Galaxy YouTube ViewBot Ultra X 🌌"
-APP_VERSION = "v3.0.0-100X"
+APP_NAME = "🌌 Galaxy YouTube ViewBot Pro 🌌"
+
+# Load version from version.json
+try:
+    import json
+    with open('version.json', 'r') as f:
+        version_data = json.load(f)
+        APP_VERSION = f"v{version_data.get('version', '3.1.0')}"
+except:
+    APP_VERSION = "v3.1.0"
+
 MAX_HISTORY = 25
 MAX_QUEUE = 100
 MAX_THREADS = 100

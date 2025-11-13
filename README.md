@@ -1,6 +1,12 @@
 # 🌌 Galaxy YouTube ViewBot Pro
 
-Advanced YouTube view generation tool integrated into NexusHub with AI-powered features and multi-threading capabilities.
+Advanced YouTube view generation tool integrated into PlayNexus with AI-powered features and multi-threading capabilities.
+
+**Developed by PlayNexus // © 2025 Nortaq**
+
+[![GitHub](https://img.shields.io/badge/GitHub-PlayNexusHub-blue)](https://github.com/PlayNexusHub)
+[![Discord](https://img.shields.io/badge/Discord-Join%20Server-7289da)](https://discord.gg/vFX5mFQUmc)
+[![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
 
 ## Features
 
@@ -181,14 +187,36 @@ export VIEWBOT_DEBUG=1
 - **Respect Limits**: Don't overwhelm servers
 - **Monitor Impact**: Watch for detection signals
 
-## Integration with NexusHub
+## Integration with PlayNexus
 
-The YouTube ViewBot is fully integrated with NexusHub:
-- **Consistent UI/UX**: Matches NexusHub design
+The YouTube ViewBot is fully integrated with PlayNexus:
+- **Consistent UI/UX**: Matches PlayNexus design
 - **Shared Infrastructure**: Uses common components
 - **Unified Logging**: Integrated notification system
-- **Export Integration**: Works with NexusHub export features
+- **Export Integration**: Works with PlayNexus export features
 - **Settings Management**: Unified configuration system
+
+## Configuration
+
+### Environment Variables
+
+Copy `.env.example` to `.env` and configure your settings:
+
+```bash
+cp .env.example .env
+```
+
+Edit `.env` with your proxy settings and API keys (if needed).
+
+### Configuration File
+
+Alternatively, use `config_template.json`:
+
+1. Copy `config_template.json` to `config.json`
+2. Fill in your proxy settings and API keys
+3. Customize application settings as needed
+
+See `SETUP_INSTRUCTIONS.txt` for detailed setup guide.
 
 ## Future Enhancements
 
@@ -206,8 +234,20 @@ For issues or feature requests:
 1. Check the troubleshooting section
 2. Review error logs
 3. Test with reduced settings
-4. Contact NexusHub support
+4. Join our Discord: https://discord.gg/vFX5mFQUmc
+5. Open an issue on GitHub: https://github.com/PlayNexusHub/-Galaxy-YouTube-ViewBot-Pro/issues
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Disclaimer
+
+**Note**: This tool is for educational and legitimate testing purposes only. Use responsibly and in compliance with YouTube's Terms of Service and applicable laws. The developers are not responsible for any misuse of this software.
 
 ---
 
-**Note**: This tool is for educational and legitimate testing purposes. Use responsibly and in compliance with YouTube's Terms of Service and applicable laws.
+**Developed by PlayNexus // © 2025 Nortaq**
+
+- GitHub: https://github.com/PlayNexusHub
+- Discord: https://discord.gg/vFX5mFQUmc

@@ -1,0 +1,69 @@
+CHANGELOG - Galaxy YouTube ViewBot Pro
+========================================
+
+Version 3.1.0 (2025-01-XX)
+---------------------------
+[UPGRADE] PlayNexus Release Standardization
+
+NEW FEATURES:
+- Added version.json for semantic versioning
+- Created comprehensive configuration templates (config_template.json, .env.example)
+- Added PlayNexus branding and documentation
+- Implemented setup instructions and changelog tracking
+
+IMPROVEMENTS:
+- Updated requirements.txt to include missing psutil dependency
+- Enhanced documentation with PlayNexus standards
+- Added configuration management system
+- Improved error handling and logging
+
+DOCUMENTATION:
+- Created README_PlayNexus.txt for Discord distribution
+- Updated README.md with PlayNexus branding
+- Added SETUP_INSTRUCTIONS.txt
+- Created CHANGELOG.txt for version tracking
+
+CONFIGURATION:
+- Added config_template.json for user customization
+- Created .env.example for environment variable setup
+- Standardized configuration format
+
+BUILD & RELEASE:
+- Prepared for PlayNexus release pipeline
+- Added sanitization support for API keys
+- Standardized file structure for packaging
+
+BUG FIXES:
+- Fixed missing psutil import in requirements.txt
+- Resolved configuration loading issues
+
+---
+
+Version 3.0.0-100X (Previous)
+------------------------------
+- Initial 100X upgrade with multi-threading support
+- Added AI Tools tab
+- Enhanced statistics monitoring
+- Improved proxy rotation
+- Added mass start functionality
+- Resource monitoring (CPU, RAM, Network)
+
+---
+
+Version 2.0.0 (Previous)
+------------------------
+- Multi-video queue support
+- Proxy pool management
+- User-agent rotation
+- Auto-like and auto-subscribe features
+- Export functionality
+
+---
+
+Version 1.0.0 (Initial Release)
+-------------------------------
+- Basic YouTube view generation
+- Headless browser support
+- Simple queue management
+- Basic statistics
+
