@@ -235,7 +235,7 @@ For issues or feature requests:
 2. Review error logs
 3. Test with reduced settings
 4. Join our Discord: https://discord.gg/vFX5mFQUmc
-5. Open an issue on GitHub: https://github.com/PlayNexusHub/-Galaxy-YouTube-ViewBot-Pro/issues
+5. Open an issue on GitHub: https://github.com/PlayNexusHub/Galaxy-YouTube-ViewBot-Pro-PlayNexus/issues
 
 ## License
 

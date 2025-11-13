@@ -135,8 +135,8 @@ Galaxy-YouTube-ViewBot-Pro/
 ### 📞 Support
 
 - Discord: https://discord.gg/vFX5mFQUmc
-- GitHub: https://github.com/PlayNexusHub/-Galaxy-YouTube-ViewBot-Pro
-- Issues: https://github.com/PlayNexusHub/-Galaxy-YouTube-ViewBot-Pro/issues
+- GitHub: https://github.com/PlayNexusHub/Galaxy-YouTube-ViewBot-Pro-PlayNexus
+- Issues: https://github.com/PlayNexusHub/Galaxy-YouTube-ViewBot-Pro-PlayNexus/issues
 
 ---
 
