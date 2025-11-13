@@ -1,10 +1,18 @@
-🌌 Galaxy YouTube ViewBot Pro v3.1.0
+🌌 Galaxy YouTube ViewBot Pro v4.0.0 - 10X UPGRADE
 
 Advanced YouTube view generation tool with AI-powered features and multi-threading capabilities.
 
-✨ Key Features:
-• Multi-video queue processing with mass start capability
-• Concurrent view generation (up to 100 threads)
+✨ Key Features (v4.0.0):
+🚀 NEW IN v4.0.0:
+• 📅 Task Scheduler - Schedule views for specific times with recurring options
+• 📊 Advanced Analytics Dashboard - Real-time performance tracking with detailed metrics
+• 🎥 Video Analytics & Tools - Deep video analysis, thumbnail downloader, info export
+• 🧠 AI Assistant - Smart comment generator, AI-optimized delays, usage suggestions
+• 📈 Enhanced Statistics - Detailed metrics, CSV/JSON export, session tracking
+
+💎 CORE FEATURES:
+• Multi-video queue processing with mass start capability (up to 500 videos)
+• Concurrent view generation (up to 200 threads)
 • User-Agent spoofing and rotation
 • Proxy pool support with automatic rotation
 • Adjustable watch time and randomized delays
@@ -12,8 +20,8 @@ Advanced YouTube view generation tool with AI-powered features and multi-threadi
 • Auto-Like, Auto-Subscribe, and Auto-Comment features
 • Video info scraping and live stream detection
 • Real-time statistics and system resource monitoring
-• Export functionality for logs, queues, and statistics
-• AI Tools integration (coming soon)
+• Export functionality for logs, queues, statistics, and analytics
+• Modern UI with dark theme and gradient design
 
 🧠 How to Use:
 1. Download and extract the ZIP file.
@@ -31,10 +39,12 @@ Advanced YouTube view generation tool with AI-powered features and multi-threadi
 
 ⚙️ Configuration:
 • Watch Time: 5-600 seconds (default: 15)
-• View Delay: 0-120 seconds (default: 2)
-• Concurrent Views: 1-100 sessions (default: 5)
+• View Delay: 0-120 seconds (default: 2) - AI-optimized available
+• Concurrent Views: 1-200 sessions (default: 5)
+• Queue Size: Up to 500 videos
 • Proxy Support: HTTP/HTTPS/SOCKS5 format
 • User Agent: Automatic rotation or custom list
+• Scheduler: Daily/Weekly/Monthly recurring tasks
 
 🔒 Safety Features:
 • Undetected ChromeDriver for bot detection bypass

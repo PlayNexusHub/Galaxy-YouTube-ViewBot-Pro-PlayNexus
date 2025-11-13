@@ -1,6 +1,6 @@
-# 🌌 Galaxy YouTube ViewBot Pro
+# 🌌 Galaxy YouTube ViewBot Pro v4.0.0 - 10X UPGRADE
 
-Advanced YouTube view generation tool integrated into PlayNexus with AI-powered features and multi-threading capabilities.
+Advanced YouTube view generation tool integrated into PlayNexus with AI-powered features, multi-threading capabilities, and a complete UI redesign.
 
 **Developed by PlayNexus // © 2025 Nortaq**
 
@@ -19,23 +19,30 @@ Advanced YouTube view generation tool integrated into PlayNexus with AI-powered 
 - **Headless Mode**: Run without visible browser windows
 - **Incognito Mode**: Private browsing sessions
 
-### 🚀 Advanced Features
+### 🚀 Advanced Features (v4.0.0)
+- **📅 Task Scheduler**: Schedule views for specific times with recurring options (Daily/Weekly/Monthly)
+- **📊 Advanced Analytics Dashboard**: Real-time performance tracking with detailed metrics table
+- **🎥 Video Analytics & Tools**: Deep video analysis, thumbnail downloader, video info export
+- **🧠 AI Assistant**: Smart comment generator, AI-optimized delay calculator, usage-based suggestions
 - **Auto-Like**: Automatically like videos after viewing
 - **Auto-Subscribe**: Subscribe to channels automatically
 - **Auto-Comment**: Post comments on videos (requires login)
 - **Random Watch Time**: Vary viewing duration for natural behavior
 - **Live Stream Detection**: Identify and handle live content
 - **Video Info Scraping**: Extract video metadata
-- **Real-time Statistics**: Monitor performance metrics
-- **Export Functionality**: Save logs and statistics
+- **Real-time Statistics**: Monitor performance metrics with enhanced tracking
+- **Export Functionality**: Save logs, statistics, analytics (CSV/JSON formats)
 
-### 🛠️ Technical Features
+### 🛠️ Technical Features (v4.0.0)
 - **Undetected ChromeDriver**: Bypass detection mechanisms
-- **Multi-threading**: Handle multiple concurrent sessions
-- **Resource Monitoring**: Track CPU and memory usage
+- **Multi-threading**: Handle up to 200 concurrent sessions
+- **Resource Monitoring**: Real-time CPU, RAM, and network usage tracking
 - **Error Handling**: Robust error recovery and logging
 - **Configuration Management**: Save and load settings
-- **Queue Management**: Import/export video queues
+- **Queue Management**: Import/export video queues (up to 500 videos)
+- **Analytics Engine**: Advanced tracking with success rate history
+- **Scheduler System**: Automated task execution with recurring support
+- **Modern UI**: Complete redesign with dark theme and gradient design
 
 ## Usage
 
